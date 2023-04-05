@@ -19,7 +19,9 @@ function App() {
     return Number(previousValue += parseFloat(cartProduct.price))
   }, 0)
 
-  const filteredResults = productList.filter(product => product.name.toLowerCase().includes(search.toLowerCase()) || product.category.toLowerCase().includes(search.toLowerCase()))
+  const filteredResults = productList.filter(product =>
+    product.name.toLowerCase().includes(search.toLowerCase()) || product.category.toLowerCase().includes(search.toLowerCase()))
+    
 
   const addProductToCart = (productId) => {
     const newCartProduct = productList.find(product => product.id === productId)

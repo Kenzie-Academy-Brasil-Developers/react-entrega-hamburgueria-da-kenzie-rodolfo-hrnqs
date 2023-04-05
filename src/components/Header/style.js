@@ -15,6 +15,7 @@ export const StyledHeader = styled.header`
         align-items: center;
         justify-content: center;
         gap: 14px;
+        max-width: 1390px;
     }
 
     @media (min-width: 800px){

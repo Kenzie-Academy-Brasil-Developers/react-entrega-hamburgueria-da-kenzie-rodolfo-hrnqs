@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const StyledContainer = styled.div`
     width: 100%;
-    max-width: 1370px;
     margin: 0 auto;
     padding: 16px;
 
@@ -14,6 +13,7 @@ export const StyledContainer = styled.div`
         padding: 30px 115px;
         display: flex;
         flex-direction: row; 
+        justify-content: center;
 
         .productListBox{
             margin-right: 65px;

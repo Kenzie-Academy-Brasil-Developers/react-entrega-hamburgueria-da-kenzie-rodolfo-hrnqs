@@ -48,6 +48,7 @@ export const StyledProductSearch = styled.div`
         justify-content: space-between;
         align-items: center;
         margin: 30px 0;
+        margin-top: 0;
 
         button{
             align-self: center;

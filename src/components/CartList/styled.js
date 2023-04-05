@@ -36,6 +36,7 @@ export const StyledProductCart = styled.div`
     }
 
     @media(min-width: 800px){
+        margin-top: 0px;
         h3{
             width: 365px;
         }
@@ -64,8 +65,7 @@ export const StyledFullProductCart = styled.div`
     }
 
     @media (min-width: 800px){
-        margin-top: 30px;
-
+        margin-top: 0px;
         h3{
             width: 365px;
         }
