@@ -12,11 +12,11 @@ export const StyledCartCard = styled.li`
 
     div{
         display: flex;
-        margin-top: 4px;
         width: 170px;
     }
 
     div > div{
+        margin-top: 7px;
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -47,7 +47,7 @@ export const StyledCartCard = styled.li`
         border-radius: 8px;
         background-color: transparent;
         position: absolute;
-        top: 24px;
+        top: 27px;
         right: 20px;
 
         font-weight: 500;
