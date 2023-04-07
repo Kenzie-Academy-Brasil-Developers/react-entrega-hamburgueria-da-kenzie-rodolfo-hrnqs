@@ -5,10 +5,12 @@ export const CartProduct = ({ cartProduct, removeProductFromCart }) => {
         <StyledCartCard>
             <img src={cartProduct.img} alt="" />
             <div>
-                <h2>{cartProduct.name}</h2>
-                <span>{cartProduct.category}</span>
+                <div>
+                    <h2>{cartProduct.name}</h2>
+                    <span>{cartProduct.category}</span>
+                </div>
+                <button onClick={() => removeProductFromCart(cartProduct.id)}>Remover</button>
             </div>
-            <button onClick={() => removeProductFromCart(cartProduct.id)}>Remover</button>
         </StyledCartCard>
     )
 }
